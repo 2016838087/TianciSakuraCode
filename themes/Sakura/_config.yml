@@ -1,0 +1,116 @@
+# site name
+prefixName: Tianci
+siteName: の小窝
+# favicon and site master avatar
+favicon: https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/favicon.ico
+avatar: https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/cute.gif
+url: https://lovetianci.cn/
+description: 一身清贫怎敢入繁华，两袖清风岂能误佳人
+# cdn没填，图片路径需要填写完整
+#cdn: https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/
+pjax: 1
+# 1开启
+mathjax: 0
+
+notice: 被这风吹散的人说Ta爱的不深，被这雨淋湿的人说Ta不会冷
+lazyloadImg: https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/svg/orange.progress-bar-stripe-loader.svg
+
+# https://fontawesome.dashgame.com/
+menus:
+  首页: { path: /, fa: fa-fort-awesome faa-shake }
+  归档: { path: /archives, fa: fa-archive faa-shake, submenus: { 
+    .NET: {path: /categories/DotNET/, fa: fa-code }, 
+    SQL: {path: /categories/SQL/, fa: fa-file-code-o },
+    Vue: {path: /categories/Vue/, fa: fa-file-text-o }, 
+    Hexo: {path: /categories/Hexo/, fa: fa-houzz }, 
+    随笔: {path: /categories/Other/, fa: fa-book }
+  } }
+  标签: { path: javascript:;, fa: fa-tags faa-shake, submenus: { 
+    娱乐: {path: /tags/娱乐/, fa: fa-gamepad }, 
+    技术: {path: /tags/技术/, fa: fa-pencil-square-o }, 
+    面试: {path: /tags/面试题/, fa: fa-television },
+    相册: {path: /photo, fa: fa-photo}
+  } }
+  # 音乐: { path: http://lovetianci.cn/onlinemusic/, fa: fa-headphones faa-shake }
+  留言板: { path: /comment/, fa: fa-comments faa-shake }
+  # 赞赏: { path: /donate/, fa: fa-heart faa-pulse }fa-th-list faa-bounce
+  # 生活: { path: /life/, fa: fa-android faa-vertical }fa-list-ul faa-vertical
+  心情: { path: /mood/, fa: fa-commenting-o faa-shake }
+  友链: { path: /links/, fa: fa-link faa-shake }
+  关于: { path: /about/, fa: fa-meetup faa-shake } 
+  # 倒计时: { path: /CountDown, fa: fa-leaf faa-wrench  } 
+  RSS: { path: /atom.xml, fa: fa-rss faa-pulse faa-shake }
+
+donate:
+  alipay: https://cdn.jsdelivr.net/gh/2016838087/TianciShokaBlog@master/images/alipay.jpg
+  wechat: https://cdn.jsdelivr.net/gh/2016838087/TianciShokaBlog@master/images/wechatpay.png
+
+# Home page sort type: -1: newer first，1: older first.
+homePageSortType: -1
+# Home page article shown number)
+# https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/sakurajs/
+# 背景图和sakura-app.js是master分支
+homeArticleShown: 10
+# 背景图片
+bg:
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/0.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/0.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/2.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/2.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/4.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/4.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/6.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/7.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/8.jpg
+
+# 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
+bgclass: filter-dot
+
+# startdash url, title, desc img
+# 图片路径master
+startdash: 
+  - {url: http://lovetianci.cn/onlinemusic/, title: 在线音乐播放器, desc: TianciOnlineMusic, img: https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/other/rain.jpg}
+  - {url: http://lovetianci.cn/showdoc/web/#/, title: 在线文档编辑器, desc: TianciShowdoc, img: https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/other/book.jpg}
+  - {url: http://lovetianci.cn/wallpaper/, title: 在线桌面壁纸, desc: TianciWallpaper, img: https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/other/dream.jpg}
+
+
+# your site build time or founded date
+siteBuildingTime: 01/05/2020
+
+#social  url, img PC端配置
+social:
+  github: {url: https://github.com/2016838087, img: https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/github.png}
+
+#social  url, img 移动端配置
+msocial:
+  github: {url: https://github.com/2016838087, fa: fa-github, color: 333}
+
+
+# 视频地址为https://cdn.jsdelivr.net/gh/2016838087/Artitalk-emoji@master/Video/Unbroken.mp4
+movies:
+  url: https://cdn.jsdelivr.net/gh/2016838087/Artitalk-emoji@master/Video/
+  # 多个视频用逗号隔开，随机获取。支持的格式目前已知MP4,Flv。其他的可以试下，不保证有用
+  name: The Pet Girl of Sakurasou.mp4,Unbroken.mp4
+
+# 迅雷音乐播放器
+# 中文文档：https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md
+aplayer: 
+  id: 2742570554
+  # 网易云歌单id：4991304209
+  server: tencent
+  # 网易云server：netease
+  type: playlist
+  fixed: true
+  autoplay: false
+  loop: all
+  order: list
+  preload: auto
+  volume: 0.7
+  mutex: true
+  hideLrc: false #隐藏歌词
+
+# Valine
+valine: true
+v_appId: cbSBY3q77EE1UpivdrbefIqi-MdYXbMMI
+v_appKey: RD6UuwP5oeceYmtT0Exdjs5w
+

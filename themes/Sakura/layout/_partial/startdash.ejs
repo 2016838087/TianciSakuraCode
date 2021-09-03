@@ -1,0 +1,89 @@
+<div class="top-feature-row">
+  <h1 class="fes-title" style="font-family: 'Ubuntu', sans-serif;">
+  <i class="fa fa-anchor" aria-hidden="true">
+  </i>
+  <!-- 动态字体 -->
+  <div id="binft"></div>
+  <script>
+    var binft = function (r) {
+      function t() {
+        return b[Math.floor(Math.random() * b.length)]
+      }  
+      function e() {
+        return String.fromCharCode(94 * Math.random() + 33)
+      }
+      function n(r) {
+        for (var n = document.createDocumentFragment(), i = 0; r > i; i++) {
+          var l = document.createElement("span");
+          l.textContent = e(), l.style.color = t(), n.appendChild(l)
+        }
+        return n
+      }
+      function i() {
+        var t = o[c.skillI];
+        c.step ? c.step-- : (c.step = g, c.prefixP < l.length ? (c.prefixP >= 0 && (c.text += l[c.prefixP]), c.prefixP++) : "forward" === c.direction ? c.skillP < t.length ? (c.text += t[c.skillP], c.skillP++) : c.delay ? c.delay-- : (c.direction = "backward", c.delay = a) : c.skillP > 0 ? (c.text = c.text.slice(0, -1), c.skillP--) : (c.skillI = (c.skillI + 1) % o.length, c.direction = "forward")), r.textContent = c.text, r.appendChild(n(c.prefixP < l.length ? Math.min(s, s + c.prefixP) : Math.min(s, t.length - c.skillP))), setTimeout(i, d)
+      }
+      var l = "",
+      o = [
+      // "你说帘外海棠，锦屏鸳鸯；后来庭院春深，咫尺画堂",
+      // "你说笛声如诉，费尽思量；后来茶烟尚绿，人影茫茫",
+      // "你说可人如玉，与子偕臧；后来长亭远望，夜色微凉",
+      // "你说霞染天光，陌上花开与谁享；后来烟笼柳暗，湖心水动影无双",
+      // "你说彼岸灯火，心之所向；后来渔舟晚唱，烟雨彷徨",
+      // "你说水静莲香，惠风和畅；后来云遮薄月，清露如霜",
+      // "你说幽窗棋罢，再吐衷肠；后来风卷孤松，雾漫山冈",
+      // "你说红袖佯嗔，秋波流转思张敞；后来黛眉长敛，春色飘零别阮郎",
+      // "你说暗香浮动，刹那光芒；后来玉殒琼碎，疏影横窗",
+      // "你说良辰美景，乘兴独往；后来红尘紫陌，雪落太行",
+      // "你说赋尽高唐，三生石上；后来君居淄右，妾家河阳",
+      // "你说玉楼朱颜，飞月流觞迎客棹；后来幽谷居士，枕琴听雨卧禅房",
+      // "你说高山流水，客答春江；后来章台游冶，系马垂杨",
+      // "你说锦瑟韶光，华灯幢幢；后来荼蘼开至，青苔满墙",
+      // "你说天地玄黄，风月琳琅；后来月斜江上，云淡天长",
+      // "你说兰舟轻发，西楼月下忆姣娘；后来江湖两忘，只影天涯踏秋殇",
+      // "你说幽谷听溪，寻芳清岗，后来落花丁零，水涸潇湘",
+      // "你说霜冷长河，蒹葭苍苍，后来伊人何在，孤坐未央",
+      // "你说月洒寒江，玉柱琼梁，后来冷镜残钩，三更榻凉",
+      // "你说梦呓故园，桃花水里游鸳鸯；后来千山暮雪，老翅几回自奔忙"
+      "书本太薄，写的进心中所想，却看不到来日方长",
+      "杯盏太浅，盛的下唇齿留香，却品不尽尘世沧桑",
+      "余生太短，饮得下杯中美酒，方能忘却那份忧愁"
+      ].map(function (r) {
+      return r + ""
+      }),
+      a = 2,
+      g = 1,
+      s = 5,
+      d = 75,
+      b = ["rgb(110,64,170)", "rgb(150,61,179)", "rgb(191,60,175)", "rgb(228,65,157)", "rgb(254,75,131)", "rgb(255,94,99)", "rgb(255,120,71)", "rgb(251,150,51)", "rgb(226,183,47)", "rgb(198,214,60)", "rgb(175,240,91)", "rgb(127,246,88)", "rgb(82,246,103)", "rgb(48,239,130)", "rgb(29,223,163)", "rgb(26,199,194)", "rgb(35,171,216)", "rgb(54,140,225)", "rgb(76,110,219)", "rgb(96,84,200)"],
+      c = {
+        text: "",
+        prefixP: -s,
+        skillI: 0,
+        skillP: 0,
+        direction: "forward",
+        delay: a,
+        step: g
+      };
+      i()
+      };
+      binft(document.getElementById('binft'));
+  </script>
+  <!-- 动态字体 -->
+  </h1>
+  <% for (dash in theme.startdash) { %>
+  <div class="top-feature-v2">
+    <div class="the-feature square from_left_and_right">
+      <a href="<%= theme.startdash[dash].url %>" target="_blank">
+        <div class="img">
+          <img src="<%- (theme.cdn || '') + theme.startdash[dash].img %>">
+        </div>
+        <div class="info">
+          <h3><%= theme.startdash[dash].title %></h3>
+          <p><%= theme.startdash[dash].desc %></p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <% } %>
+</div>

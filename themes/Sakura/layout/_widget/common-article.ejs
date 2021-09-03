@@ -1,0 +1,195 @@
+<link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/css/tocbot.css">
+<div class="pattern-center-blank"></div>
+<% if (post.photos && post.photos.length){ %>
+  <div class="pattern-center single-center">
+    <!-- 有配图默认渲染第一张 -->
+    <div class="pattern-attachment-img lazyload" style="background-image: url(<%= post.photos[0] %>);"
+      src="<%- theme.lazyloadImg%>" data-src="<%= post.photos[0] %>">
+    </div>
+    <header class="pattern-header single-header">
+      <h1 class="entry-title">
+        <%- post.title %>
+      </h1>
+      <p class="entry-census">
+        <span>
+          <!-- 链接 -->
+          <!-- <a href="<%- post.authorLink%>"> -->
+          <a href="<%- theme.url%>">
+            <!-- 头像 -->
+            <!-- <img src="<%- post.avatar%>"> -->
+            <img src="<%- theme.avatar%>">
+          </a>
+        </span>
+
+        <span>
+          <!-- 发帖人 -->
+          <!-- <a href="<%- post.authorLink%>"><%- post.author %></a> -->
+          <a href="<%- theme.url%>">
+            <%- theme.prefixName %>
+          </a>
+        </span>
+        <span class="bull">
+          ·</span>
+        <%= date(post.date, 'YYYY-M-D' ) %>
+          <span class="bull">
+            ·</span>
+          <span id="busuanzi_value_page_pv"></span>次阅读
+          <span class="bull">
+            ·</span>
+          本章字数:<%= wordcount(post.content) %>
+            <span class="bull">
+              ·</span>
+            总字数:<%= totalcount(site) %>
+              <!-- <span>
+          <% if (post.top){ %>
+            <i class="fa fa-thumb-tack"></i>
+            <font color=FFFF00>置顶</font>
+          <% } %>
+        </span> -->
+      </p>
+    </header>
+  </div>
+  <% } %>
+    <div id="content" class="site-content">
+      <div id="primary" class="content-area">
+        <main id="main" class="site-main" role="main">
+          <article id="post-1"
+            class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+            <div class="toc"></div>
+            <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
+            <% if (!post.photos[0]){ %>
+              <header class="entry-header">
+                <h1 class="entry-title">
+                  <%- post.title %>
+                </h1>
+                <p class="entry-census">
+                  <%- post.author %>&nbsp;·&nbsp;<%= date(post.date, 'YYYY-M-D' ) %>&nbsp;·&nbsp;<span
+                        id="busuanzi_value_page_pv"></span>次阅读
+                </p>
+                </p>
+
+                <hr>
+              </header>
+              <% } %>
+                <div class="entry-content">
+                  <%- post.content %>
+                </div>
+                <!-- 赞赏 -->
+                <div class="single-reward">
+                  <div class="reward-open">赏
+                    <div class="reward-main">
+                      <ul class="reward-row">
+                        <li class="alipay-code"><img
+                            src="https://cdn.jsdelivr.net/gh/2016838087/TianciShokaBlog@master/images/alipay.jpg"></li>
+                        <li class="wechat-code"><img
+                            src="https://cdn.jsdelivr.net/gh/2016838087/TianciShokaBlog@master/images/wechatpay.png">
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- 赞赏 -->
+                <!-- .entry-content -->
+                <!-- data-disabled="diandian, tencent" -->
+                <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled=""></div>
+                <footer class="post-footer">
+                  <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"
+                      target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i>
+                      知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
+                  <div class="post-tags">
+                  </div>
+                  <div class="post-share">
+                    <div class="social-share sharehidden share-component"></div>
+                    <i class="iconfont show-share icon-forward"></i>
+                  </div>
+                </footer>
+                <!-- .entry-footer -->
+          </article>
+          <!-- #post-## -->
+          <div class="toc" style="background: none;"></div>
+          <section class="post-squares nextprev">
+            <% if (post.prev){ %>
+              <% if (post.next) { %>
+                <div class="post-nepre half previous">
+                  <% } else { %>
+                    <div class="post-nepre full previous">
+                      <% } %>
+                        <a href="<%- url_for(post.prev.path) %>" rel="prev">
+                          <div class="background">
+                            <img class="lazyload" src="<%- theme.lazyloadImg%>" data-src="<%- post.prev.photos[0]%>"
+                              style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;"
+                              onerror="imgError(this,3)" src="<%- post.prev.photos[0]%>">
+                          </div>
+                          <span class="label">
+                            Previous Post</span>
+                          <div class="info">
+                            <h3>
+                              <%= post.prev.title%>
+                            </h3>
+                            <hr>
+                          </div>
+                        </a>
+                    </div>
+                    <% } %>
+                      <% if (post.next){ %>
+                        <% if (post.prev) { %>
+                          <div class="post-nepre half next">
+                            <% } else { %>
+                              <div class="post-nepre full next">
+                                <% } %>
+                                  <a href="<%- url_for(post.next.path) %>" rel="next">
+                                    <div class="background">
+                                      <img class="lazyload" src="<%- theme.lazyloadImg%>"
+                                        data-src="<%- post.next.photos[0]%>"
+                                        style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;"
+                                        onerror="imgError(this,3)" src="<%- post.next.photos[0]%>">
+                                    </div>
+                                    <span class="label">
+                                      Next Post</span>
+                                    <div class="info">
+                                      <h3>
+                                        <%= post.next.title%>
+                                      </h3>
+                                      <hr>
+                                    </div>
+                                  </a>
+                              </div>
+                              <% } %>
+          </section>
+          <%- partial('_partial/comment') %>
+            <section class="author-profile">
+              <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+                <!-- 页面底部头像统一，post页面可以不写 -->
+                <!-- <a href="<%- post.authorLink %>" class="profile gravatar"><img src="<%- post.avatar%>" itemprop="image" alt="<%- post.author %>" height="70" width="70"></a> -->
+                <a href="<%- theme.url %>" class="profile gravatar"><img src="<%- (theme.cdn || '') + theme.avatar%>"
+                    itemprop="image" alt="<%- theme.prefixName %>" height="70" width="70"></a>
+                <div class="meta">
+                  <span class="title">Author</span>
+                  <h3 itemprop="name">
+                    <!-- 底部发帖人 -->
+                    <!-- <a href="<%- post.authorLink%>" itemprop="url" rel="author"><%- post.author %></a> -->
+                    <a href="<%- theme.url%>" itemprop="url" rel="author">
+                      <%- theme.prefixName %>
+                    </a>
+                  </h3>
+                </div>
+              </div>
+              <hr>
+              <!-- 底部文字从页面自定义方式 -->
+              <!-- <p><i class="iconfont icon-write"></i><%- post.authorAbout%></p> -->
+              <p><i class="iconfont icon-write"></i>
+                <%- theme.notice%>
+              </p>
+            </section>
+        </main><!-- #main -->
+      </div><!-- #primary -->
+    </div>
+
+    <% if (post.mathjax) { %>
+      <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML"></script>
+      <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  </script>
+      <% } %>
