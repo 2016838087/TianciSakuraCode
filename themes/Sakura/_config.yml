@@ -62,6 +62,12 @@ bg:
   - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/6.jpg
   - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/7.jpg
   - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/8.jpg
+  - https://cdn.jsdelivr.net/gh/wang1375830242/CDN/8.jpg
+  - https://cdn.jsdelivr.net/gh/wang1375830242/CDN/10.jpg
+  - https://cdn.jsdelivr.net/gh/wang1375830242/CDN/11.jpg
+  - https://cdn.jsdelivr.net/gh/wang1375830242/CDN/14.jpg
+  - https://cdn.jsdelivr.net/gh/wang1375830242/CDN/15.jpg
+  - https://cdn.jsdelivr.net/gh/wang1375830242/CDN/38.jpg
 
 # 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
 bgclass: filter-dot
