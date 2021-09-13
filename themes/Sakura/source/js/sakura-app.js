@@ -170,7 +170,8 @@ function imgError (ele, type) {
   switch (type) {
     
     default:
-      ele.src = 'https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/image-404.png'
+      // ele.src = 'https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/image-404.png'
+      ele.src = 'https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/loading.gif'
   }
 }
 mashiro_global.post_list_show_animation = new function () {

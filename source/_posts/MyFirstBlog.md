@@ -4,7 +4,7 @@ date: 2020-01-05 22:22:22
 categories: Other #分类
 tags: ['娱乐'] #文章标签
 description: 人生开始瞎写
-photos: https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/bg.jpg #背景图
+photos: https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/26.jpg
 ---
 # 前言
 

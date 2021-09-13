@@ -54,20 +54,52 @@ homeArticleShown: 10
 # 背景图片
 bg:
   - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/0.jpg
-  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/0.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/1.jpg
   - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/2.jpg
-  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/2.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/3.jpg
   - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/4.jpg
-  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/4.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/5.jpg
   - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/6.jpg
   - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/7.jpg
   - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/8.jpg
-  - https://cdn.jsdelivr.net/gh/wang1375830242/CDN/8.jpg
-  - https://cdn.jsdelivr.net/gh/wang1375830242/CDN/10.jpg
-  - https://cdn.jsdelivr.net/gh/wang1375830242/CDN/11.jpg
-  - https://cdn.jsdelivr.net/gh/wang1375830242/CDN/14.jpg
-  - https://cdn.jsdelivr.net/gh/wang1375830242/CDN/15.jpg
-  - https://cdn.jsdelivr.net/gh/wang1375830242/CDN/38.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/9.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/10.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/11.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/12.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/13.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/14.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/15.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/16.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/17.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/18.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/19.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/20.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/21.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/22.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/23.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/24.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/25.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/26.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/27.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/28.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/29.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/30.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/31.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/32.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/33.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/34.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/35.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/36.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/37.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/38.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/39.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/40.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/41.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/X-Blades1.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/X-Blades2.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/X-Blades3.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/X-Blades4.jpg
+  - https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/X-Blades5.jpg
 
 # 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
 bgclass: filter-dot
