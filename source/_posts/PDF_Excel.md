@@ -46,6 +46,36 @@ public async Task<IActionResult> GetExcel()
         var unitmeasure = worksheet.DataValidations.AddListValidation(worksheet.Cells[2, 3, 10000, 3].Address);
         unitmeasure.Formula.Values.Add("现金");
         unitmeasure.Formula.Values.Add("刷卡");
+        int rowCount = 1;//行
+        int cellCount = 0;//列
+        //添加数据（循环可改为数据集）
+        for (int i = 1; i <= 20; i++)
+        {
+            rowCount++;
+            worksheet.Cells[rowCount, ++cellCount].Value = i;
+            worksheet.Cells[rowCount, ++cellCount].Value = i;
+            worksheet.Cells[rowCount, ++cellCount].Value = unitmeasure.Formula.Values[1];
+            worksheet.Cells[rowCount, ++cellCount].Value = i;
+            worksheet.Cells[rowCount, ++cellCount].Value = i;
+            cellCount = 0;//重置
+        }
+        worksheet.Protection.IsProtected = true;//设置是否进行锁定
+        worksheet.Protection.SetPassword("123456");//设置密码
+        worksheet.Protection.AllowAutoFilter = false;//下面是一些锁定时权限的设置
+        worksheet.Protection.AllowDeleteColumns = false;
+        worksheet.Protection.AllowDeleteRows = false;
+        worksheet.Protection.AllowEditScenarios = false;
+        worksheet.Protection.AllowEditObject = false;
+        worksheet.Protection.AllowFormatCells = false;
+        worksheet.Protection.AllowFormatColumns = false;
+        worksheet.Protection.AllowFormatRows = false;
+        worksheet.Protection.AllowInsertColumns = false;
+        worksheet.Protection.AllowInsertHyperlinks = false;
+        worksheet.Protection.AllowInsertRows = false;
+        worksheet.Protection.AllowPivotTables = false;
+        worksheet.Protection.AllowSelectLockedCells = false;
+        worksheet.Protection.AllowSelectUnlockedCells = false;
+        worksheet.Protection.AllowSort = false;
         package.Save();
     }
     stream.Position = 0;
