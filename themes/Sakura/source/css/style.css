@@ -4245,7 +4245,7 @@ i.iconfont.js-toggle-search.iconsearch {
     visibility:visible;
     opacity:.99;
     animation:elastic .5s;
-    background-image:url(https://fastly.jsdelivr.net/gh/honjun/cdn@1.6/img/other/://fastly.jsdelivr.net/gh/honjun/cdn@1.6/img/other/iloli.gif);
+    background-image:url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/iloli.gif);
     background-repeat:no-repeat;
     background-position:bottom right
 }
@@ -5414,7 +5414,7 @@ i.iconfont.js-toggle-search.iconsearch {
 }.oshimai {
     height:2em;
     width:6.11em;
-    background:url("https://fastly.jsdelivr.net/gh/honjun/cdn@1.6/img/other/oshimai.svg");
+    background:url("https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/oshimai.svg");
     background-size:cover;
     margin:0 auto
 }
@@ -5554,7 +5554,7 @@ i.iconfont.js-toggle-search.iconsearch {
     border:0;
     color:#fff;
     line-height:1;
-    cursor:url(https://fastly.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/No_Disponible.cur),auto;
+    cursor:url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/No_Disponible.cur),auto;
     font-size:14px;
     font-weight:500;
     padding:7px 15px;
@@ -5680,7 +5680,7 @@ button.botui-actions-buttons-button::-moz-focus-inner,input.botui-actions-text-i
     padding:0
 }
 button.botui-actions-buttons-button {
-    cursor:url(https://fastly.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/No_Disponible.cur),auto;
+    cursor:url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/No_Disponible.cur),auto;
     -webkit-appearance:button
 }
 .botui-app-container {
@@ -6920,7 +6920,7 @@ to {
     background-color:rgba(245,245,245,.8)
 }
 #emotion-toggle,.emotion-box,.on-hover,.emotion-item,.emoji-item,.tieba-container span {
-    cursor:url(https://fastly.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/No_Disponible.cur),auto
+    cursor:url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/No_Disponible.cur),auto
 }
 .alignright {
     width:auto !important
