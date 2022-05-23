@@ -4,7 +4,7 @@ date: 2022-02-19 15:00:00
 categories: DotNET
 tags: ['技术'] 
 description: 集成日志组件打印日志
-photos: https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/35.jpg
+photos: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/35.jpg
 ---
 ### 项目中常用的日志组件为Log4net，今天记录一下最简单集成Log4net的方法
 <!-- more -->

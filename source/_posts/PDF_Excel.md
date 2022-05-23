@@ -4,7 +4,7 @@ date: 2021-12-30 14:00:00
 categories: DotNET
 tags: ['技术'] 
 description: 一些公共方法
-photos: https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/34.jpg
+photos: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/34.jpg
 ---
 ### 关于生成PDF和Excel文件的最简单方法
 <!-- more -->

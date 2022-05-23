@@ -4,7 +4,7 @@ date: 2020-05-11 17:40:00
 categories: SQL
 tags: ['技术']
 description: 数据库存储过程
-photos: https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/25.jpg
+photos: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/25.jpg
 ---
 # 记录一下数据库存储过程
 <!-- more -->

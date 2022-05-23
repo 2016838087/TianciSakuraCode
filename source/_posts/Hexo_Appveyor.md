@@ -4,7 +4,7 @@ date: 2021-08-06 18:00:00
 categories: Other
 tags: ['技术'] 
 description: Appveyor持续集成第一章
-photos: https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/31.jpg
+photos: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/31.jpg
 ---
 ### 半年没写博客，突然接触到一个新词叫做CI（持续集成）和CD（持续交付）
 ### 学习一下AppVeyor持续集成Hexo并配置GitHub Pages

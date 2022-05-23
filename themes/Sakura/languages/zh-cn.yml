@@ -44,32 +44,32 @@ insight:
 DotNET:
     zh:  DotNET
     en:  Tianci dotnet is so low
-    img: https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/other/coding.jpg
+    img: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/other/coding.jpg
 
 Vue:
     zh:  Vue
     en:  I am learning
-    img: https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/other/coding.jpg
+    img: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/other/coding.jpg
 
 Hexo:
     zh:  Hexo
     en:  Static Blog Framework
-    img: https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/other/coding.jpg
+    img: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/other/coding.jpg
 
 Other:
     zh:  闲情逸致
     en:  Comfortable
-    img: https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/other/coding.jpg
+    img: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/other/coding.jpg
 
 SQL:
     zh:  数据库基础
     en:  MSSQL and MySQL
-    img: https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/other/coding.jpg
+    img: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/other/coding.jpg
 
 #tag标签
 娱乐:
-    img: https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/other/reading.jpg
+    img: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/other/reading.jpg
 技术:
-    img: https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/other/coding.jpg
+    img: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/other/coding.jpg
 面试题:
-    img: https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/other/writing.jpg
+    img: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/other/writing.jpg

@@ -4,7 +4,7 @@ date: 2020-01-05 22:22:22
 categories: Other #分类
 tags: ['娱乐'] #文章标签
 description: 人生开始瞎写
-photos: https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/26.jpg
+photos: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/26.jpg
 ---
 # 前言
 
@@ -24,11 +24,11 @@ photos: https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/imag
 ### 武当出来包分配
 ### 富士康里当门卫
 
-{% fb_img https://cdn.jsdelivr.net/gh/2016838087/TianciShokaBlog@master/Other/MyFirstBlog/ShangHai1.jpg 魔都上海 %}
+{% fb_img https://fastly.jsdelivr.net/gh/2016838087/TianciShokaBlog@master/Other/MyFirstBlog/ShangHai1.jpg 魔都上海 %}
 
-{% fb_img https://cdn.jsdelivr.net/gh/2016838087/TianciShokaBlog@master/Other/MyFirstBlog/ShangHai2.jpg 夜上海 %}
+{% fb_img https://fastly.jsdelivr.net/gh/2016838087/TianciShokaBlog@master/Other/MyFirstBlog/ShangHai2.jpg 夜上海 %}
 
 
 <!-- ### 可添加哔哩哔哩视频地址
-### 标题{% fb_img https://cdn.jsdelivr.net/gh/2016838087/Artitalk-emoji@master/daku.png 哭了 %}
+### 标题{% fb_img https://fastly.jsdelivr.net/gh/2016838087/Artitalk-emoji@master/daku.png 哭了 %}
 {% bili 43443146 %} -->

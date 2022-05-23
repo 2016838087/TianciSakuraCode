@@ -5,7 +5,7 @@
     width: 400px;
 }
 #veditor {
-    background-image: url(https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile/themes/cdn/img/comment-bg.png);
+    background-image: url(https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile/themes/cdn/img/comment-bg.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
@@ -719,13 +719,13 @@ audio:not([controls]) {
 a {
     background-color:transparent;
     text-decoration:none;
-    cursor:url(https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/cur/ayuda.cur),auto
+    cursor:url(https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/cur/ayuda.cur),auto
 }
 a:active,a:hover {
     outline:0
 }
 a:active {
-    cursor:url(https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/cur/work.cur),alias
+    cursor:url(https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/cur/work.cur),alias
 }
 abbr[title] {
     border-bottom:1px dotted
@@ -846,7 +846,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 p {
     margin-bottom:1.5em;
-    cursor:url(https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/cur/texto.cur),auto
+    cursor:url(https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/cur/texto.cur),auto
 }
 dfn,cite,em,i {
     font-style:italic
@@ -932,7 +932,7 @@ html {
 body {
     background:#fff;
     background-attachment:fixed;
-    cursor:url(https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/cur/normal.cur),auto
+    cursor:url(https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/cur/normal.cur),auto
 }
 blockquote:before,blockquote:after,q:before,q:after {
     content:""
@@ -1090,13 +1090,13 @@ a:hover,a:active {
     opacity:1
 }
 .video-play,.loadvideo {
-    background-image:url('https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/play@32x32.png')
+    background-image:url('https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/play@32x32.png')
 }
 .video-pause {
-    background-image:url('https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/pause@32x32.png')
+    background-image:url('https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/pause@32x32.png')
 }
 #video-add {
-    background-image:url('https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/add@32x32.png');
+    background-image:url('https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/add@32x32.png');
     bottom:45px;
     display:none
 }
@@ -2232,11 +2232,11 @@ h1.page-title.mb- {
     z-index:99;
     width:70px;
     height:900px;
-    background:url(https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/scroll.png) no-repeat center;
+    background:url(https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/scroll.png) no-repeat center;
     background-size:contain;
     -webkit-transition:all .5s ease-in-out;
     transition:all .5s ease-in-out;
-    cursor:url(https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/No_Disponible.cur),auto;
+    cursor:url(https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/No_Disponible.cur),auto;
     opacity:1
 }
 .cd-top.cd-is-visible {
@@ -2813,7 +2813,7 @@ to {
     height:40px;
     text-align:center;
     line-height:45px;
-    background-image:url("https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/svg/disqus-preloader.svg");
+    background-image:url("https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/svg/disqus-preloader.svg");
     background-position:center;
     background-repeat:no-repeat;
     background-size:auto 100%
@@ -3600,7 +3600,7 @@ a.page-numbers {
     background-color:rgba(255,255,255,0)
 }
 .comment-respond textarea {
-    background-image:url('https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile/themes/cdn/img/comment-bg.png');
+    background-image:url('https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile/themes/cdn/img/comment-bg.png');
     background-size:contain;
     background-repeat:no-repeat;
     background-position:right;
@@ -3882,14 +3882,14 @@ li.feature-2 {
     background-color:rgba(0,0,0,.3)
 }
 .headertop.filter-grid::before {
-    background-image:url(https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/grid.png)
+    background-image:url(https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/grid.png)
 }
 .headertop.filter-dot::before {
-    background-image:url(https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/dot.gif)
+    background-image:url(https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/dot.gif)
 }
 @media(max-width:860px) {
     .headertop.filter-dot::before {
-    background-image:url(https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/grid.png)
+    background-image:url(https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/grid.png)
 }
 }.headertop-bar::after {
     content:'';
@@ -3952,7 +3952,7 @@ li.feature-2 {
     }
     .top-social_v2 li {
         margin-right: 0px !important; 
-        cursor: url(https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/cur/ayuda.cur),auto !important;
+        cursor: url(https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/cur/ayuda.cur),auto !important;
     }
 }
 #bgvideo {
@@ -4635,7 +4635,7 @@ i.iconfont.down {
     color:orange
 }
 #pagination .loading {
-    background:url("https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/svg/wordpress-rotating-ball-o.svg");
+    background:url("https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/svg/wordpress-rotating-ball-o.svg");
     background-position:center;
     background-repeat:no-repeat;
     color:#555;
@@ -7321,7 +7321,7 @@ to {
     padding:2px;
     text-shadow:none;
     border-radius:0 0 5px 5px;
-    cursor:url(https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/cur/texto.cur),auto
+    cursor:url(https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/cur/texto.cur),auto
 }
 .highlight-wrap code[data-rel]:before {
     color:#fff;
@@ -7625,7 +7625,7 @@ img[src*="#in-center"] {
 #banner_wave_1 {
     width:auto;
     height:65px;
-    background:url("https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/wave1.png") repeat-x;
+    background:url("https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/wave1.png") repeat-x;
     position:absolute;
     bottom:0;
     width:400%;
@@ -7638,7 +7638,7 @@ img[src*="#in-center"] {
 #banner_wave_2 {
     width:auto;
     height:80px;
-    background:url("https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/wave2.png") repeat-x;
+    background:url("https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/wave2.png") repeat-x;
     position:absolute;
     bottom:0;
     width:400%;

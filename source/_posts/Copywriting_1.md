@@ -4,7 +4,7 @@ date: 2021-09-22 16:20:00
 categories: Other #分类
 tags: ['娱乐'] #文章标签
 description: 文案
-photos: https://cdn.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/22.jpg
+photos: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/22.jpg
 ---
 1. 和你，跌跌撞撞长大；还要，磨磨蹭蹭变老。And you, stumbled and grew up; Also,dawdle and grow old.
 {% fb_img 1.jpeg Tianci %}
