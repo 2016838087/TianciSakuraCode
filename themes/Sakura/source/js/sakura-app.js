@@ -1041,19 +1041,19 @@ var home = location.href,
         $.getScript('//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js');
       }
     },
-    VA: function () {
-      if (!valine) {
-        var valine = new Valine()
-        valine.init({
-          el: '#vcomments',
-          avatar: 'monsterid',
-          appId: mashiro_option.v_appId,
-          appKey: mashiro_option.v_appKey,
-          path: window.location.pathname,
-          placeholder: '你是我一生只会遇见一次的惊喜 ...'
-        })
-      }
-    },
+    // VA: function () {
+    //   if (!valine) {
+    //     var valine = new Valine()
+    //     valine.init({
+    //       el: '#vcomments',
+    //       avatar: 'monsterid',
+    //       appId: mashiro_option.v_appId,
+    //       appKey: mashiro_option.v_appKey,
+    //       path: window.location.pathname,
+    //       placeholder: '你是我一生只会遇见一次的惊喜 ...'
+    //     })
+    //   }
+    // },
     MJ: function () {
       if (mashiro_option.mathjax == '1') {
         $.getScript('//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML', function () {
