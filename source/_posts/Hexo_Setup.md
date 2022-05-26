@@ -4,7 +4,7 @@ date: 2020-01-12 12:00:00
 categories: Hexo #分类
 tags: ['技术']
 description: Hexo基本操作
-photos: /images/background/29.jpg
+photos: https://gcore.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/29.jpg
 ---
 
 ## 打开Git Bash，输入以下代码安装hexo

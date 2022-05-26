@@ -1,8 +1,8 @@
 ---
-title: 闲话
-avatar: /images/tianci.jpg #头像地址
+title: 心情
+avatar: https://gcore.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/tianci.jpg #头像地址
 authorLink: JavaScript; #头像链接
-photos: /images/background/lonely.png
+photos: https://gcore.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/lonely.png
 comments: false
 ---
 <span></span>

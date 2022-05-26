@@ -4,7 +4,7 @@ date: 2020-07-03 16:00:00
 categories: DotNET
 tags: ['技术'] 
 description: 学习.NET Core第二章
-photos: /images/background/34.jpg
+photos: https://gcore.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/34.jpg
 ---
 ## 今天记录一下.NET Core WebAPI的全局异常处理
 <!-- more -->

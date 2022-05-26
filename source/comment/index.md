@@ -1,9 +1,9 @@
 ---
 title: 留言板
 keywords: 留言板
-avatar: /images/tianci.jpg #头像地址
+avatar: https://gcore.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/tianci.jpg #头像地址
 authorLink: JavaScript; #头像链接
-photos: /images/other/train.jpg
+photos: https://gcore.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/other/train.jpg
 ---
 {% raw %}
 <div class="entry-content">

@@ -1,7 +1,7 @@
 ---
 layout: links
 title: 友链
-photos: /images/other/second.jpg
+photos: https://gcore.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/other/second.jpg
 comments: false
 
 links:

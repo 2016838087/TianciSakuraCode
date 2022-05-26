@@ -4,7 +4,7 @@ date: 2020-04-03 11:11:11
 categories: DotNET #分类
 tags: ['技术'] #标签
 description: C#特性的原理
-photos: /images/background/37.jpg
+photos: https://gcore.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/37.jpg
 ---
 
 ## Remark特性的应用场景

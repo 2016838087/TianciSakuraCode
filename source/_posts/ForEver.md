@@ -4,7 +4,7 @@ date: 2021-11-02 18:00:00
 categories: Other
 tags: ['娱乐'] 
 description: 关于那年那天那个人
-photos: /images/background/33.jpg
+photos: https://gcore.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/33.jpg
 # 加密
 encrypt: true 
 enc_pwd: 20201024

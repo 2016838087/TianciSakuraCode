@@ -4,7 +4,7 @@ date: 2021-01-20 16:30:00
 categories: DotNET #分类
 tags: ['技术'] #标签
 description: 常用的操作和方法
-photos: /images/background/19.jpg
+photos: https://gcore.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/19.jpg
 ---
 ### 2021首发
 <!-- more -->
