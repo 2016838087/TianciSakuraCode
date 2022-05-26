@@ -152,7 +152,7 @@ aplayer:
   hideLrc: false #隐藏歌词
 
 # Valine
-valine: false
-v_appId: Q9nIjLgxRKqhSFbITx3Kfdox-MdYXbMMI
-v_appKey: 73gltLSCnm29IPtQo0mAL306
+valine: true
+v_appId: gcyRrrTODColvahbgrSvApl5-MdYXbMMI
+v_appKey: 5W43w4sQ6cVbCqfCTRN0h6Ta
 
