@@ -4,7 +4,7 @@ date: 2020-04-24 21:30:00
 categories: Vue
 tags: ['技术'] 
 description: 刚入门vue所遇到的那些事2
-photos: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/21.jpg
+photos: /images/background/21.jpg
 # 博客加密
 encrypt: true 
 enc_pwd: 20200424

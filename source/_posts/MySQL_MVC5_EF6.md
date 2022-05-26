@@ -4,7 +4,7 @@ date: 2020-04-14 16:16:16
 categories: SQL
 tags: ['技术']
 description: MVC5+EF6+MySQL连接
-photos: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/24.jpg
+photos: /images/background/24.jpg
 ---
 ## 记录一下MVC+EF连接MySQL数据库需要安装的插件
 <!-- more -->

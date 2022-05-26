@@ -4,7 +4,7 @@ date: 2022-05-18 13:35:00
 categories: Other
 tags: ['技术'] 
 description: LeetCode简单算法题的具体代码实现
-photos: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/38.jpg
+photos: /images/background/38.jpg
 ---
 ### 刷过LeetCode才发现自己的基础是这么的烂
 <!-- more -->

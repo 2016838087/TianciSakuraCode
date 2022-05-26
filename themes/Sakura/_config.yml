@@ -2,8 +2,8 @@
 prefixName: Tianci
 siteName: の小窝
 # favicon and site master avatar
-favicon: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/favicon.ico
-avatar: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/cute.gif
+favicon: /images/favicon.ico
+avatar: /images/cute.gif
 url: https://lovetianci.cn/
 description: 一身清贫怎敢入繁华，两袖清风岂能误佳人
 # cdn没填，图片路径需要填写完整
@@ -13,7 +13,7 @@ pjax: 1
 mathjax: 0
 
 notice: 被这风吹散的人说Ta爱的不深，被这雨淋湿的人说Ta不会冷
-lazyloadImg: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/svg/orange.progress-bar-stripe-loader.svg
+lazyloadImg: /cdn/svg/orange.progress-bar-stripe-loader.svg
 
 # https://fontawesome.dashgame.com/
 menus:
@@ -48,58 +48,58 @@ donate:
 # Home page sort type: -1: newer first，1: older first.
 homePageSortType: -1
 # Home page article shown number)
-# https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/sakurajs/
+# /sakurajs/
 # 背景图和sakura-app.js是master分支
 homeArticleShown: 10
 # 背景图片
 bg:
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/0.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/1.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/2.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/3.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/4.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/5.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/6.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/7.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/8.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/9.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/10.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/11.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/12.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/13.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/14.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/15.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/16.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/17.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/18.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/19.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/20.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/21.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/22.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/23.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/24.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/25.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/26.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/27.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/28.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/29.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/30.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/31.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/32.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/33.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/34.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/35.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/36.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/37.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/38.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/39.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/40.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/41.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/X-Blades1.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/X-Blades2.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/X-Blades3.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/X-Blades4.jpg
-  - https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/X-Blades5.jpg
+  - /images/background/0.jpg
+  - /images/background/1.jpg
+  - /images/background/2.jpg
+  - /images/background/3.jpg
+  - /images/background/4.jpg
+  - /images/background/5.jpg
+  - /images/background/6.jpg
+  - /images/background/7.jpg
+  - /images/background/8.jpg
+  - /images/background/9.jpg
+  - /images/background/10.jpg
+  - /images/background/11.jpg
+  - /images/background/12.jpg
+  - /images/background/13.jpg
+  - /images/background/14.jpg
+  - /images/background/15.jpg
+  - /images/background/16.jpg
+  - /images/background/17.jpg
+  - /images/background/18.jpg
+  - /images/background/19.jpg
+  - /images/background/20.jpg
+  - /images/background/21.jpg
+  - /images/background/22.jpg
+  - /images/background/23.jpg
+  - /images/background/24.jpg
+  - /images/background/25.jpg
+  - /images/background/26.jpg
+  - /images/background/27.jpg
+  - /images/background/28.jpg
+  - /images/background/29.jpg
+  - /images/background/30.jpg
+  - /images/background/31.jpg
+  - /images/background/32.jpg
+  - /images/background/33.jpg
+  - /images/background/34.jpg
+  - /images/background/35.jpg
+  - /images/background/36.jpg
+  - /images/background/37.jpg
+  - /images/background/38.jpg
+  - /images/background/39.jpg
+  - /images/background/40.jpg
+  - /images/background/41.jpg
+  - /images/background/X-Blades1.jpg
+  - /images/background/X-Blades2.jpg
+  - /images/background/X-Blades3.jpg
+  - /images/background/X-Blades4.jpg
+  - /images/background/X-Blades5.jpg
 
 # 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
 bgclass: filter-dot
@@ -107,9 +107,9 @@ bgclass: filter-dot
 # startdash url, title, desc img
 # 图片路径master
 startdash: 
-  - {url: http://lovetianci.cn/onlinemusic/, title: 在线音乐播放器, desc: TianciOnlineMusic, img: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/other/rain.jpg}
-  - {url: http://lovetianci.cn/showdoc/web/#/, title: 在线文档编辑器, desc: TianciShowdoc, img: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/other/book.jpg}
-  - {url: http://lovetianci.cn/wallpaper/, title: 在线桌面壁纸, desc: TianciWallpaper, img: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/other/dream.jpg}
+  - {url: http://lovetianci.cn/onlinemusic/, title: 在线音乐播放器, desc: TianciOnlineMusic, img: /images/other/rain.jpg}
+  - {url: http://lovetianci.cn/showdoc/web/#/, title: 在线文档编辑器, desc: TianciShowdoc, img: /images/other/book.jpg}
+  - {url: http://lovetianci.cn/wallpaper/, title: 在线桌面壁纸, desc: TianciWallpaper, img: /images/other/dream.jpg}
 
 
 # your site build time or founded date
@@ -117,15 +117,15 @@ siteBuildingTime: 01/05/2020
 
 #social  url, img PC端配置
 social:
-  # github: {url: https://github.com/2016838087, img: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/github.png}
-  qq: {url: https://wpa.qq.com/msgrd?v=3&uin=2016838087&site=11&menu=yes, img: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/qq.png}
-  wechat: {url: /#, qrcode: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/wechat.jpg, img: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/wechat.png}
+  # github: {url: https://github.com/2016838087, img: /cdn/img/github.png}
+  qq: {url: https://wpa.qq.com/msgrd?v=3&uin=2016838087&site=11&menu=yes, img: /cdn/img/qq.png}
+  wechat: {url: /#, qrcode: /images/wechat.jpg, img: /cdn/img/wechat.png}
 
 #social  url, img 移动端配置
 msocial:
   # github: {url: https://github.com/2016838087, fa: fa-github, color: 333}
   qq: {url: https://wpa.qq.com/msgrd?v=3&uin=2016838087&site=11&menu=yes,fa: fa-qq, color: 333}
-  wechat: {url: /#, qrcode: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/wechat.jpg, img: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/cdn/img/wechat.png}
+  wechat: {url: /#, qrcode: /images/wechat.jpg, img: /cdn/img/wechat.png}
 
 
 # 视频地址为https://fastly.jsdelivr.net/gh/2016838087/Artitalk-emoji@master/Video/Unbroken.mp4

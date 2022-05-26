@@ -1,10 +1,10 @@
 ---
 title: 关于
-avatar: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/tianci.jpg #头像地址
+avatar: /images/tianci.jpg #头像地址
 authorLink: / #头像链接
 authorAbout: 不会编程的懒羊羊
 description: 人生开始瞎写
-photos: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/lonely.png
+photos: /images/background/lonely.png
 comments: false
 ---
 {% raw %}
@@ -28,7 +28,7 @@ comments: false
   </div>
 </div>
 <!-- <script src="../js/about.js"></script> -->
-<script src="https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/js/botui.js"></script>
+<script src="/js/botui.js"></script>
 <script>
 bot_ui_ini()
 </script>

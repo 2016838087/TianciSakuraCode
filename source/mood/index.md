@@ -1,8 +1,8 @@
 ---
 title: 闲话
-avatar: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/tianci.jpg #头像地址
+avatar: /images/tianci.jpg #头像地址
 authorLink: JavaScript; #头像链接
-photos: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/lonely.png
+photos: /images/background/lonely.png
 comments: false
 ---
 <span></span>

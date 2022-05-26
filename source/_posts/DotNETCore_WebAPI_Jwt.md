@@ -4,7 +4,7 @@ date: 2021-03-03 01:00:00
 categories: DotNET
 tags: ['技术'] 
 description: .NET Core Jwt授权与鉴权
-photos: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/33.jpg
+photos: /images/background/33.jpg
 ---
 ### 大晚上写的博客，内容不是很细致，记录一个简单的过程
 <!-- more -->

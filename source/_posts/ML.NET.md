@@ -4,7 +4,7 @@ date: 2021-08-11 15:00:00
 categories: Other
 tags: ['技术']
 description: .NET的机器学习
-photos: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/27.jpg
+photos: /images/background/27.jpg
 ---
 ### 什么是ML.NET，官方文档给出解释如下
 <!-- more -->
