@@ -118,14 +118,14 @@ siteBuildingTime: 01/05/2020
 #social  url, img PC端配置
 social:
   # github: {url: https://github.com/2016838087, img: https://cdn.lovetianci.cn/themes/cdn/img/github.png}
-  qq: {url: https://wpa.qq.com/msgrd?v=3&uin=2016838087&site=qq&menu=yes&jumpflag=1, img: https://cdn.lovetianci.cn/themes/cdn/img/qq.png}
-  wechat: {url: /#, qrcode: /images/wechat.jpg, img: https://cdn.lovetianci.cn/themes/cdn/img/wechat.png}
+  qq: {url: https://wpa.qq.com/msgrd?v=3&uin=2016838087&site=11&menu=yes, img: https://cdn.lovetianci.cn/themes/cdn/img/qq.png}
+  wechat: {url: /#, qrcode: https://cdn.lovetianci.cn/themes/images/wechat.jpg, img: https://cdn.lovetianci.cn/themes/cdn/img/wechat.png}
 
 #social  url, img 移动端配置
 msocial:
   # github: {url: https://github.com/2016838087, fa: fa-github, color: 333}
   qq: {url: https://wpa.qq.com/msgrd?v=3&uin=2016838087&site=11&menu=yes,fa: fa-qq, color: 333}
-  wechat: {url: /#, qrcode: /images/wechat.jpg, img: /cdn/img/wechat.png}
+  wechat: {url: /#, qrcode: https://cdn.lovetianci.cn/themes/images/wechat.jpg, img: https://cdn.lovetianci.cn/themes/cdn/img/wechat.png}
 
 
 # 视频地址为https://fastly.jsdelivr.net/gh/2016838087/Artitalk-emoji@master/Video/Unbroken.mp4
