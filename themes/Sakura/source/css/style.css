@@ -5,7 +5,7 @@
     width: 400px;
 }
 #veditor {
-    background-image: url(https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile/themes/cdn/img/comment-bg.png);
+    background-image: url(https://cdn.lovetianci.cn/themes/cdn/img/comment-bg.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
@@ -3600,7 +3600,7 @@ a.page-numbers {
     background-color:rgba(255,255,255,0)
 }
 .comment-respond textarea {
-    background-image:url('https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile/themes/cdn/img/comment-bg.png');
+    background-image:url('https://cdn.lovetianci.cn/themes/cdn/img/comment-bg.png');
     background-size:contain;
     background-repeat:no-repeat;
     background-position:right;
