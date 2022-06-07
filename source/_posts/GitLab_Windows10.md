@@ -4,7 +4,7 @@ date: 2020-10-11 21:00:00
 categories: Other
 tags: ['技术'] 
 description: Windows服务器搭建私人GitLab
-photos: https://gcore.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/32.jpg
+photos: https://cdn.lovetianci.cn/themes/images/background/32.jpg
 ---
 
 ## 记录一下Windows服务器搭建私人GitLab

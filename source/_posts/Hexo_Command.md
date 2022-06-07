@@ -4,7 +4,7 @@ date: 2020-01-13 20:00:00
 categories: Hexo #分类
 tags: ['技术'] #标签
 description: Hexo基本命令
-photos: https://gcore.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/30.jpg
+photos: https://cdn.lovetianci.cn/themes/images/background/30.jpg
 ---
 
 ## 搭建Hexo静态博客难免会遇到小问题

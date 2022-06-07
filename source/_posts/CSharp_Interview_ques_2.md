@@ -4,7 +4,7 @@ date: 2020-03-06 13:14:20
 categories: DotNET #分类
 tags: ['面试题'] #标签
 description: C#基础理论知识
-photos: https://gcore.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/38.jpg
+photos: https://cdn.lovetianci.cn/themes/images/background/38.jpg
 ---
 
 ## 这次的面试题大多为理论知识

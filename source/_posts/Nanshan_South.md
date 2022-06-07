@@ -4,7 +4,7 @@ date: 2022-05-18 14:00:00
 categories: Other
 tags: ['娱乐'] 
 description: 南山南解析
-photos: https://gcore.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/themes/images/background/39.jpg
+photos: https://cdn.lovetianci.cn/themes/images/background/39.jpg
 ---
 <!-- more -->
 你去了南方以南，在落不下雪花的烈日里，在冷暖中挣扎。在热闹时沉默，在喧嚣里寂寞，在艳阳里大雪纷飞
