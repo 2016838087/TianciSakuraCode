@@ -5,6 +5,7 @@ categories: Other
 tags: ['技术'] 
 description: LeetCode简单算法题的具体代码实现
 photos: https://cdn.lovetianci.cn/themes/images/background/38.jpg
+top: true
 ---
 ### 刷过LeetCode才发现自己的基础是这么的烂
 <!-- more -->
