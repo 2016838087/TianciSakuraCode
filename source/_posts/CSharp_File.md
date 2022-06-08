@@ -4,7 +4,7 @@ date: 2020-12-30 17:00:00
 categories: DotNET #分类
 tags: ['技术'] #标签
 description: C#文件操作
-photos: http://cdn.lovetianci.cn/themes/images/background/40.jpg
+photos: https://cdn.lovetianci.cn/themes/images/background/40.jpg
 ---
 ### 2020快过完了，赶紧水一篇博客
 <!-- more -->

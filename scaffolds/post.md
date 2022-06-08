@@ -4,5 +4,5 @@ date: {{ date }}
 categories: 
 tags: 
 description: 
-photos: http://cdn.lovetianci.cn/themes/images/bg.jpg
+photos: https://cdn.lovetianci.cn/themes/images/bg.jpg
 ---

@@ -1,7 +1,7 @@
 ---
 layout: links
 title: 友链
-photos: http://cdn.lovetianci.cn/themes/images/other/second.jpg
+photos: https://cdn.lovetianci.cn/themes/images/other/second.jpg
 comments: false
 
 links:

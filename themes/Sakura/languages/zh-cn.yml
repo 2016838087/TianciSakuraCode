@@ -44,32 +44,32 @@ insight:
 DotNET:
     zh:  DotNET
     en:  Tianci dotnet is so low
-    img: http://cdn.lovetianci.cn/themes/images/other/coding.jpg
+    img: https://cdn.lovetianci.cn/themes/images/other/coding.jpg
 
 Vue:
     zh:  Vue
     en:  I am learning
-    img: http://cdn.lovetianci.cn/themes/images/other/coding.jpg
+    img: https://cdn.lovetianci.cn/themes/images/other/coding.jpg
 
 Hexo:
     zh:  Hexo
     en:  Static Blog Framework
-    img: http://cdn.lovetianci.cn/themes/images/other/coding.jpg
+    img: https://cdn.lovetianci.cn/themes/images/other/coding.jpg
 
 Other:
     zh:  闲情逸致
     en:  Comfortable
-    img: http://cdn.lovetianci.cn/themes/images/other/coding.jpg
+    img: https://cdn.lovetianci.cn/themes/images/other/coding.jpg
 
 SQL:
     zh:  数据库基础
     en:  MSSQL and MySQL
-    img: http://cdn.lovetianci.cn/themes/images/other/coding.jpg
+    img: https://cdn.lovetianci.cn/themes/images/other/coding.jpg
 
 #tag标签
 娱乐:
-    img: http://cdn.lovetianci.cn/themes/images/other/reading.jpg
+    img: https://cdn.lovetianci.cn/themes/images/other/reading.jpg
 技术:
-    img: http://cdn.lovetianci.cn/themes/images/other/coding.jpg
+    img: https://cdn.lovetianci.cn/themes/images/other/coding.jpg
 面试题:
-    img: http://cdn.lovetianci.cn/themes/images/other/writing.jpg
+    img: https://cdn.lovetianci.cn/themes/images/other/writing.jpg

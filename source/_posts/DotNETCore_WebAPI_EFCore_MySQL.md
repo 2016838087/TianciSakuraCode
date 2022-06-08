@@ -4,7 +4,7 @@ date: 2020-07-09 18:00:00
 categories: DotNET
 tags: ['技术'] 
 description: 学习.NET Core第三章
-photos: http://cdn.lovetianci.cn/themes/images/background/35.jpg
+photos: https://cdn.lovetianci.cn/themes/images/background/35.jpg
 ---
 ## 记录一下.NET Core使用EFCore连接MySQL数据库
 <!-- more -->

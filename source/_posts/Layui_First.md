@@ -4,7 +4,7 @@ date: 2021-08-19 15:00:00
 categories: Other
 tags: ['技术']
 description: ASP.NET Core MVC+Layui
-photos: http://cdn.lovetianci.cn/themes/images/background/28.jpg
+photos: https://cdn.lovetianci.cn/themes/images/background/28.jpg
 ---
 ### 遇到的一些问题及解决方法
 <!-- more -->
