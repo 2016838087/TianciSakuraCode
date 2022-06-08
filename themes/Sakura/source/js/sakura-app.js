@@ -170,8 +170,8 @@ function imgError (ele, type) {
   switch (type) {
     
     default:
-      // ele.src = 'https://cdn.lovetianci.cn/themes/cdn/img/image-404.png'
-      ele.src = 'https://cdn.lovetianci.cn/themes/images/loading.gif'
+      // ele.src = 'http://cdn.lovetianci.cn/themes/cdn/img/image-404.png'
+      ele.src = 'http://cdn.lovetianci.cn/themes/images/loading.gif'
   }
 }
 mashiro_global.post_list_show_animation = new function () {
@@ -309,7 +309,7 @@ function attach_image () {
             $('.insert-image-tips').html('<i class="fa fa-picture-o" aria-hidden="true"></i>')
           }, 1000)
           var get_the_url = res.data.url.replace('https://i.loli.net/', 'https://static.shino.cc/user-upload/')
-          $('#upload-img-show').append('<img class="lazyload upload-image-preview" src="https://cdn.lovetianci.cn/themes/sakurajs/trans.ajax-spinner-preloader.svg" data-src="' + get_the_url + '" onclick="window.open(\'' + get_the_url + '\')" onerror="imgError(this)" />')
+          $('#upload-img-show').append('<img class="lazyload upload-image-preview" src="http://cdn.lovetianci.cn/themes/sakurajs/trans.ajax-spinner-preloader.svg" data-src="' + get_the_url + '" onclick="window.open(\'' + get_the_url + '\')" onerror="imgError(this)" />')
           lazyload()
           addComment.createButterbar('图片上传成功~<br>Uploaded successfully~')
           grin(res.data.url.replace('https://i.loli.net/', '{UPLOAD}'), type = 'Img')
@@ -420,7 +420,7 @@ function checkBgImgCookie () {
     $('#banner_wave_2').addClass('banner_wave_hide_fit_skin')
   }
   if (bgurl != '') {
-    if (bgurl == 'https://cdn.lovetianci.cn/themes/sakurajs/sakura.png' || bgurl == 'https://cdn.lovetianci.cn/themes/sakurajs/plaid.jpg' || bgurl == 'https://cdn.lovetianci.cn/themes/sakurajs/star.png' || bgurl == 'https://cdn.lovetianci.cn/themes/sakurajs/point.png' || bgurl == 'https://cdn.lovetianci.cn/themes/sakurajs/little-monster.png') {
+    if (bgurl == 'http://cdn.lovetianci.cn/themes/sakurajs/sakura.png' || bgurl == 'http://cdn.lovetianci.cn/themes/sakurajs/plaid.jpg' || bgurl == 'http://cdn.lovetianci.cn/themes/sakurajs/star.png' || bgurl == 'http://cdn.lovetianci.cn/themes/sakurajs/point.png' || bgurl == 'http://cdn.lovetianci.cn/themes/sakurajs/little-monster.png') {
       mashiro_global.variables.skinSecter = true
       mashiro_global.variables.isNight = false
       $('#night-mode-cover').css('visibility', 'hidden')
@@ -487,11 +487,11 @@ $(document).ready(function () {
       setCookie('bgImgSetting', url, 30)
     })
   }
-  changeBG('#sakura-bg', 'https://cdn.lovetianci.cn/themes/sakurajs/sakura.png')
-  changeBG('#gribs-bg', 'https://cdn.lovetianci.cn/themes/sakurajs/plaid.jpg')
-  changeBG('#pixiv-bg', 'https://cdn.lovetianci.cn/themes/sakurajs/star.png')
-  changeBG('#KAdots-bg', 'https://cdn.lovetianci.cn/themes/sakurajs/point.png')
-  changeBG('#totem-bg', 'https://cdn.lovetianci.cn/themes/sakurajs/little-monster.png')
+  changeBG('#sakura-bg', 'http://cdn.lovetianci.cn/themes/sakurajs/sakura.png')
+  changeBG('#gribs-bg', 'http://cdn.lovetianci.cn/themes/sakurajs/plaid.jpg')
+  changeBG('#pixiv-bg', 'http://cdn.lovetianci.cn/themes/sakurajs/star.png')
+  changeBG('#KAdots-bg', 'http://cdn.lovetianci.cn/themes/sakurajs/point.png')
+  changeBG('#totem-bg', 'http://cdn.lovetianci.cn/themes/sakurajs/little-monster.png')
   changeBGnoTrans('#bing-bg', 'https://api.shino.cc/bing/')
   $('.skin-menu #white-bg').click(function () {
     mashiro_global.variables.skinSecter = false
@@ -509,7 +509,7 @@ $(document).ready(function () {
   $('.skin-menu #dark-bg').click(function () {
     mashiro_global.variables.skinSecter = true
     mashiro_global.variables.isNight = true
-    $('body').css('background-image', 'url(https://cdn.lovetianci.cn/themes/sakurajs/starry_sky.png)')
+    $('body').css('background-image', 'url(http://cdn.lovetianci.cn/themes/sakurajs/starry_sky.png)')
     $('.blank').css('background-color', 'rgba(255,255,255,.8)')
     $('#night-mode-cover').css('visibility', 'visible')
     $('.pattern-center').removeClass('pattern-center').addClass('pattern-center-sakura')

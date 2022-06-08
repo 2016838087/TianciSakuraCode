@@ -4,7 +4,7 @@ date: 2020-01-12 12:00:00
 categories: Hexo #分类
 tags: ['技术']
 description: Hexo基本操作
-photos: https://cdn.lovetianci.cn/themes/images/background/29.jpg
+photos: http://cdn.lovetianci.cn/themes/images/background/29.jpg
 ---
 <!-- more -->
 ## 首先安装node.js环境

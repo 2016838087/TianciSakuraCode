@@ -1,9 +1,9 @@
 ---
 title: 留言板
 keywords: 留言板
-avatar: https://cdn.lovetianci.cn/themes/images/tianci.jpg #头像地址
+avatar: http://cdn.lovetianci.cn/themes/images/tianci.jpg #头像地址
 authorLink: JavaScript; #头像链接
-photos: https://cdn.lovetianci.cn/themes/images/other/train.jpg
+photos: http://cdn.lovetianci.cn/themes/images/other/train.jpg
 ---
 {% raw %}
 <div class="entry-content">

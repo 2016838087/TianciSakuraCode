@@ -4,7 +4,7 @@ date: 2020-01-05 22:22:22
 categories: Other #分类
 tags: ['娱乐'] #文章标签
 description: 人生开始瞎写
-photos: https://cdn.lovetianci.cn/themes/images/background/26.jpg
+photos: http://cdn.lovetianci.cn/themes/images/background/26.jpg
 ---
 # 前言
 

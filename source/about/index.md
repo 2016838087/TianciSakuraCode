@@ -1,10 +1,10 @@
 ---
 title: 关于
-avatar: https://cdn.lovetianci.cn/themes/images/tianci.jpg #头像地址
+avatar: http://cdn.lovetianci.cn/themes/images/tianci.jpg #头像地址
 authorLink: / #头像链接
 authorAbout: 不会编程的懒羊羊
 description: 人生开始瞎写
-photos: https://cdn.lovetianci.cn/themes/images/background/lonely.png
+photos: http://cdn.lovetianci.cn/themes/images/background/lonely.png
 comments: false
 ---
 {% raw %}
@@ -28,7 +28,7 @@ comments: false
   </div>
 </div>
 <!-- <script src="../js/about.js"></script> -->
-<script src="https://cdn.lovetianci.cn/themes/js/botui.js"></script>
+<script src="http://cdn.lovetianci.cn/themes/js/botui.js"></script>
 <script>
 bot_ui_ini()
 </script>

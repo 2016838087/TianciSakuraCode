@@ -1,8 +1,8 @@
 ---
 title: 心情
-avatar: https://cdn.lovetianci.cn/themes/images/tianci.jpg #头像地址
+avatar: http://cdn.lovetianci.cn/themes/images/tianci.jpg #头像地址
 authorLink: JavaScript; #头像链接
-photos: https://cdn.lovetianci.cn/themes/images/background/lonely.png
+photos: http://cdn.lovetianci.cn/themes/images/background/lonely.png
 comments: false
 ---
 <span></span>
