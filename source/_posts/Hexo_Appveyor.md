@@ -1,7 +1,7 @@
 ---
 title: Appveyor持续集成Hexo
 date: 2021-08-06 18:00:00
-categories: Other
+categories: Hexo
 tags: ['技术'] 
 description: Appveyor持续集成第一章
 photos: https://cdn.lovetianci.cn/themes/images/background/31.jpg
