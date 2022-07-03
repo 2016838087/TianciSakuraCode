@@ -4,7 +4,7 @@ date: 2020-01-09 22:22:22
 categories: Other #分类
 tags: ['娱乐'] #文章标签
 description: 《你说》
-photos: https://cdn.lovetianci.cn/themes/images/background/23.jpg
+photos: https://cdn.lovetianci.cn/themes/images/background/2.jpg
 # top: true
 # encrypt: true 博客加密
 # enc_pwd: 123456

@@ -4,7 +4,7 @@ date: 2020-04-23 16:25:00
 categories: Vue
 tags: ['技术'] 
 description: 刚入门vue所遇到的那些事
-photos: https://cdn.lovetianci.cn/themes/images/background/22.jpg
+photos: https://cdn.lovetianci.cn/themes/images/background/13.jpg
 # 博客加密
 encrypt: true 
 enc_pwd: 20200423

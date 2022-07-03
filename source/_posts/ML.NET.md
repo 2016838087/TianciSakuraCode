@@ -4,7 +4,7 @@ date: 2021-08-11 15:00:00
 categories: Other
 tags: ['技术']
 description: .NET的机器学习
-photos: https://cdn.lovetianci.cn/themes/images/background/27.jpg
+photos: https://cdn.lovetianci.cn/themes/images/background/25.jpg
 ---
 ### 什么是ML.NET，官方文档给出解释如下
 <!-- more -->

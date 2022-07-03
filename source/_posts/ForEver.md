@@ -4,7 +4,7 @@ date: 2021-11-02 18:00:00
 categories: Other
 tags: ['娱乐'] 
 description: 关于那年那天那个人
-photos: https://cdn.lovetianci.cn/themes/images/background/33.jpg
+photos: https://cdn.lovetianci.cn/themes/images/background/27.jpg
 # 加密
 encrypt: true 
 enc_pwd: 20201024

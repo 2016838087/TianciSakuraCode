@@ -4,7 +4,7 @@ date: 2020-02-03 21:21:21
 categories: DotNET #分类
 tags: ['技术'] #标签
 description: 接口异常处理
-photos: https://cdn.lovetianci.cn/themes/images/background/20.jpg
+photos: https://cdn.lovetianci.cn/themes/images/background/7.jpg
 ---
 
 ## 记录一下WebAPI的全局异常处理

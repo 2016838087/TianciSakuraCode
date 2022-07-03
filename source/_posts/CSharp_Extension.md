@@ -4,7 +4,7 @@ date: 2020-02-10 22:00:00
 categories: DotNET #分类
 tags: ['技术'] #标签
 description: 扩展方法的创建与使用
-photos: https://cdn.lovetianci.cn/themes/images/background/41.jpg
+photos: https://cdn.lovetianci.cn/themes/images/background/8.jpg
 ---
 
 ## C#扩展方法

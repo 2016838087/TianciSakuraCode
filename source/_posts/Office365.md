@@ -4,7 +4,7 @@ date: 2022-05-18 13:00:00
 categories: Other
 tags: ['技术'] 
 description: 关于无法批准Authenticator管理员账户登陆请求的解决方案
-photos: https://cdn.lovetianci.cn/themes/images/background/37.jpg
+photos: https://cdn.lovetianci.cn/themes/images/background/31.jpg
 ---
 <!-- more -->
 ### 这两天为了使用Office365注册了一个E5开发人员账号

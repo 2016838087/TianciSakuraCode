@@ -4,7 +4,7 @@ date: 2022-05-18 13:35:00
 categories: Other
 tags: ['技术'] 
 description: LeetCode简单算法题的具体代码实现
-photos: https://cdn.lovetianci.cn/themes/images/background/38.jpg
+photos: https://cdn.lovetianci.cn/themes/images/background/33.jpg
 top: true
 ---
 ### 刷过LeetCode才发现自己的基础是这么的烂

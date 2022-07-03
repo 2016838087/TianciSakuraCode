@@ -4,7 +4,7 @@ date: 2020-06-10 15:30:00
 categories: DotNET
 tags: ['技术'] 
 description: 学习.NET Core第一章
-photos: https://cdn.lovetianci.cn/themes/images/background/36.jpg
+photos: https://cdn.lovetianci.cn/themes/images/background/16.jpg
 ---
 ## 记录.NET Core部署IIS遇到的坑
 <!-- more -->

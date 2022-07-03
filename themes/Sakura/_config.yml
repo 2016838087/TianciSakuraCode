@@ -42,8 +42,8 @@ menus:
   RSS: { path: /atom.xml, fa: fa-rss faa-pulse faa-shake }
 
 donate:
-  alipay: https://fastly.jsdelivr.net/gh/2016838087/TianciShokaBlog@master/images/alipay.jpg
-  wechat: https://fastly.jsdelivr.net/gh/2016838087/TianciShokaBlog@master/images/wechatpay.png
+  alipay: https://cdn.lovetianci.cn/themes/images/alipay.jpg
+  wechat: https://cdn.lovetianci.cn/themes/images/wechatpay.png
 
 # Home page sort type: -1: newer first，1: older first.
 homePageSortType: -1

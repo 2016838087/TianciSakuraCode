@@ -4,7 +4,7 @@ date: 2020-03-03 10:20:30
 categories: DotNET #分类
 tags: ['面试题'] #标签
 description: 面试常见的简单算法题
-photos: https://cdn.lovetianci.cn/themes/images/background/39.jpg
+photos: https://cdn.lovetianci.cn/themes/images/background/9.jpg
 ---
 
 ## 记录一下遇到过的面试题

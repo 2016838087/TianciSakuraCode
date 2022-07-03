@@ -4,7 +4,7 @@ date: 2022-02-22 22:22:22
 categories: DotNET
 tags: ['技术'] 
 description: .NET Core轻量级ORM
-photos: https://cdn.lovetianci.cn/themes/images/background/36.jpg
+photos: https://cdn.lovetianci.cn/themes/images/background/30.jpg
 ---
 ### 这两天从FreeSql转SqlSugar，记录一些日常
 <!-- more -->
