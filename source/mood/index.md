@@ -11,7 +11,7 @@ comments: false
 
 </div>
 <!-- 引用 artitalk -->
-<script type="text/javascript" src="https://unpkg.com/artitalk"></script>
+<script type="text/javascript" src="https://cdn.lovetianci.cn/themes/js/artitalk.js"></script>
 
 <script>
 new Artitalk({
