@@ -4246,7 +4246,7 @@ i.iconfont.js-toggle-search.iconsearch {
     visibility:visible;
     opacity:.99;
     animation:elastic .5s;
-    background-image:url(https://fastly.jsdelivr.net/gh/honjun/cdn@1.6/img/other/://fastly.jsdelivr.net/gh/honjun/cdn@1.6/img/other/iloli.gif);
+    background-image:url(https://gcore.jsdelivr.net/gh/honjun/cdn@1.6/img/other/://gcore.jsdelivr.net/gh/honjun/cdn@1.6/img/other/iloli.gif);
     background-repeat:no-repeat;
     background-position:bottom right
 } */
@@ -5417,7 +5417,7 @@ i.iconfont.js-toggle-search.iconsearch {
 /* .oshimai {
     height:2em;
     width:6.11em;
-    background:url("https://fastly.jsdelivr.net/gh/honjun/cdn@1.6/img/other/oshimai.svg");
+    background:url("https://gcore.jsdelivr.net/gh/honjun/cdn@1.6/img/other/oshimai.svg");
     background-size:cover;
     margin:0 auto
 } */

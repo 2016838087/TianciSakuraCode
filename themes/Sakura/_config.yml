@@ -7,7 +7,7 @@ avatar: https://cdn.lovetianci.cn/themes/images/cute.gif
 url: https://lovetianci.cn/
 description: 一身清贫怎敢入繁华，两袖清风岂能误佳人
 # cdn没填，图片路径需要填写完整
-#cdn: https://fastly.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/
+#cdn: https://gcore.jsdelivr.net/gh/2016838087/SakuraHexoFile@master/
 pjax: 1
 # 1开启
 mathjax: 0
@@ -128,9 +128,9 @@ msocial:
   wechat: {url: /#, qrcode: https://cdn.lovetianci.cn/themes/images/wechat.jpg, img: https://cdn.lovetianci.cn/themes/cdn/img/wechat.png}
 
 
-# 视频地址为https://fastly.jsdelivr.net/gh/2016838087/Artitalk-emoji@master/Video/Unbroken.mp4
+# 视频地址为https://gcore.jsdelivr.net/gh/2016838087/Artitalk-emoji@master/Video/Unbroken.mp4
 movies:
-  url: https://fastly.jsdelivr.net/gh/2016838087/Artitalk-emoji@master/Video/
+  url: https://gcore.jsdelivr.net/gh/2016838087/Artitalk-emoji@master/Video/
   # 多个视频用逗号隔开，随机获取。支持的格式目前已知MP4,Flv。其他的可以试下，不保证有用
   name: The Pet Girl of Sakurasou.mp4,Unbroken.mp4
 

@@ -9,7 +9,7 @@ links:
     desc: 欢迎交换友链 ꉂ(ˊᗜˋ)
     items:
     - url: https://blog.lovetianci.cn/
-      img: https://fastly.jsdelivr.net/gh/2016838087/TianciShokaBlog@master/images/apple-touch-icon.png
+      img: https://gcore.jsdelivr.net/gh/2016838087/TianciShokaBlog@master/images/apple-touch-icon.png
       name: Tianciの小窝
       desc: 备用博客
 ---
