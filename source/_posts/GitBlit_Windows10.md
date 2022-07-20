@@ -66,4 +66,10 @@ SET CD = C:\WebFile\GitBlit --(GitBlit解压后的路径)
 
 ### 然后在命令窗口运行gitblit.cmd（切记cmd窗口不能关闭）
 
+### 第二种以服务的形式启动，双击运行installService.cmd就会在服务中新增一个gitblit服务
+
+### 启动即可
+
+{% fb_img service.PNG 服务配置 %}
+
 ### 最后以管理员账号登陆，就可以自己添加存储库了，然后自行拉取提交推送
