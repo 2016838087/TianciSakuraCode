@@ -162,12 +162,15 @@ public static class AutoDI
     /// <param name="services"></param>
     public static IServiceCollection AddDataService(this IServiceCollection services)
     {
-        #region 依赖注入
         var singletonType = typeof(ISingleton); // 单例
         var transientType = typeof(ITransient); // 瞬时
         var scopedType = typeof(IScoped); // 作用域
         // 获取实现了三个生命周期接口的程序集
-        var allTypes = AppDomain.CurrentDomain.GetAssemblies().SelectMany(a => a.GetTypes().Where(t => t.GetInterfaces().Contains(transientType) || t.GetInterfaces().Contains(singletonType)|| t.GetInterfaces().Contains(scopedType)));
+        var allTypes = AppDomain.CurrentDomain.GetAssemblies()
+            .SelectMany(a => a.GetTypes().Where(t => 
+            t.GetInterfaces().Contains(transientType) || 
+            t.GetInterfaces().Contains(singletonType)|| 
+            t.GetInterfaces().Contains(scopedType)));
         // class的程序集
         var implementTypes = allTypes.Where(x => x.IsClass).ToArray();
         // 接口的程序集
@@ -215,7 +218,6 @@ public static class AutoDI
                 }
             }
         }
-        #endregion
         return services;
     }
 }

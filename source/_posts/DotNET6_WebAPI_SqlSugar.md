@@ -41,17 +41,16 @@ public class SqlSugarContext
 ### 连接字符串配置
 ````json
 "ConnectionStrings": {
-    "MySQLConnection": "server=127.0.0.1;uid=用户名;pwd=密码;port=3306;database=数据库名称;SslMode=None",
     // 本地MySQL
-    "WorkMySQLConnection": "server=127.0.0.1;uid=用户名;pwd=密码;port=3307;database=数据库名称;SslMode=None",
+    "MySQLConnection": "server=127.0.0.1;uid=用户名;pwd=密码;port=3306;database=数据库名称;SslMode=None",
     // 本地SQL Server
-    "WorkSQLServerConnection": "Data Source=.;Initial Catalog=数据库名称;uid=用户名;pwd=密码;Pooling=true;"
+    "SQLServerConnection": "Data Source=.;Initial Catalog=数据库名称;uid=用户名;pwd=密码;Pooling=true;"
   }
 ````
 ### Program赋值连接字符串
 ````csharp
 // 连接字符串
-SqlSugarContext.ConnectionString = builder.Configuration.GetConnectionString("WorkSQLServerConnection");
+SqlSugarContext.ConnectionString = builder.Configuration.GetConnectionString("SQLServerConnection");
 ````
 ### 这样就可以直接使用了
 ````csharp
