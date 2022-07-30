@@ -109,7 +109,7 @@ docker rmi -f $(docker images -aq)
 #构建镜像命令
 docker build -t dotnet6api .
 #运行镜像
-#--naem dotnet6api是容器名称
+#--name dotnet6api是容器名称
 #dotnet6api是绑定的镜像名称
 #5000是对外暴露的端口
 #80是docker内部绑定的端口
@@ -169,3 +169,26 @@ docker rmi -f $(docker images -aq)
 service docker stop
 service docker status
 ```
+### 扩展知识，发布项目想查看日志怎么办
+### 进入容器dotnet6api
+```shell
+docker exec -it dotnet6api /bin/bash
+```
+### 容器里面相当于一个系统所以无法使用vim等操作
+### 安装vim
+```shell
+apt-get install vim
+```
+### 出现错误
+```shell
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+E: Unable to locate package vim
+```
+### 以下命令貌似会把本地的源同步到docker容器中再安装就可以了
+```shell
+apt-get update
+apt-get install vim
+```
+### 退出容器快捷键CTRL + P 然后 CTRL + Q
