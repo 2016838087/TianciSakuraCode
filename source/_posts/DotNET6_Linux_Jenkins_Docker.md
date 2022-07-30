@@ -1,6 +1,6 @@
 ---
 title: Linux使用Jenkins+Docker自动化部署DotNET6
-date: 2022-07-29 18:30:00
+date: 2022-07-30 17:00:00
 categories: Other
 tags: ['技术'] 
 description: 阿里云CentOS持续集成部署DotNET6
